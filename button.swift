@@ -20,7 +20,7 @@ struct ItemDetail: View {
             
             
         }){
-            Image(systemName: "bag.badge.plus")
+            Image(systemName: "bag.badge.plus")   // SF Symbol of a Bag. Look the image in Readme file for reference
                 .font(.system(size: 20, weight: .semibold, design: .default))
                 .frame(width: 200, height: 60)
                 .background(
